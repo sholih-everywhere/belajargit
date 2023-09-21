@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+  </style>
+
+  <body>
+    <div style="background-color: orange; height: 50px">
+      <h1 style="color: white; padding-top: 7px">Website Rangga</h1>
+    </div>
+
+    <div style="display: flex;">
+      <div
+        style="
+          background-color: blue;
+          width: 15%;
+          height: 564px;
+          
+        "
+      >
+        <div class="sidebar" style="color: white">
+          <h3 style="padding-top: 10px; padding-bottom: 3px">Main Menu</h3>
+          <hr />
+          <div style="padding-left: 4px; padding-top: 7px"><a href="../index.html" style="text-decoration: none; color: white;">Beranda</a></div>
+          <div style="padding-left: 4px"><a href="#" style="text-decoration: none; color: white;">Tambahkan Siswa</a></div>
+          <div style="padding-left: 4px"><a href="table.html" style="text-decoration: none; color: white;">Tampil Siswa</a></div>
+        </div>
+      </div>
+
+      <div style="padding-left: 10px; padding-top: 10px;">
+        <h1>Selamat Datang Di Halaman Dashboard</h1>
+        <hr>
+
+        <div style="padding-top: 10px;">
+            <form action="" method="post">
+                <table>
+                    <tr>
+                        <td><p>Nomor Induk Siswa</p></td>
+                        <td>:</td>
+                        <td><input type="text" name="nis"></td>
+                    </tr>
+
+                    <tr>
+                        <td><p>Nama</p></td>
+                        <td>:</td>
+                        <td><input type="text" name="nama"></td>
+                    </tr>
+
+                    <tr>
+                        <td><p>Tempat Lahir</p></td>
+                        <td>:</td>
+                        <td><input type="text" name="lahir"></td>
+                    </tr>
+
+                    <tr>
+                        <td><p>Tanggal Lahir</p></td>
+                        <td>:</td>
+                        <td><input type="date" name="tgllahir"></td>
+                    </tr>
+
+                    <tr>
+                        <td><p>Jenis Kelamin</p></td>
+                        <td>:</td>
+                        <td><input type="radio" name="tgllahir">Laki-Laki <input type="radio" name="tgllahir">Perempuan</td>
+                    </tr>
+
+                    
+                    <tr>
+                        <td><p>Hobi</p></td>
+                        <td>:</td>
+                        <td><input type="checkbox" name="tgllahir">hoby <input type="checkbox" name="hoby">olahraga <input type="checkbox" name="hoby">futsal</td>
+                    </tr>
+
+                    <tr>
+                        <td><p>Kelas</p></td>
+                        <td>:</td>
+                        <td><select name="kelas" id="kelas">
+                            <option value="rpl">Rekayasa Perangkat Lunak</option>
+                            <option value="tkj">Teknik Komputer Jaringan</option>
+                            <option value="otkp">Otomatisasi Tata Kelola Perkantoran</option>
+                        </select></td>
+                    </tr>
+
+                    <tr>
+                        <td><p>Alamat</p></td>
+                        <td>:</td>
+                        <td><textarea name="alamat" id="" cols="30" rows="2"></textarea></td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <input type="submit" value="submit">
+                            <input type="reset" value="reset">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+      </div>
+    </div>
+
+    <div style="background-color: orange; height: 50px">
+      <p style="text-align: center; padding-top: 7px;">&copy; Copyright Rangga</p>
+    </div>
+  </body>
+</html>
